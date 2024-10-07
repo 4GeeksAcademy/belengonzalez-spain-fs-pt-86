@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray; 
+}
+
+header {
+    background-color: white; 
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid dimgray; 
+}
+
+h1 {
+    font-size: 24px;
+    color: darkgray; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.post {
+    background-color: white; 
+    border: 1px solid dimgray; 
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px; 
+}
+
+.post img {
+    width: 100%; 
+    display: block;
+}
+
+.post-info {
+    padding: 10px; 
+}
+
+.post-info h2 {
+    font-size: 18px; 
+    color: darkgray; 
+    margin-bottom: 5px; 
+}
+
+.post-info p {
+    font-size: 14px; 
+    color: dimgray; 
+    line-height: 1.4; 
+}
